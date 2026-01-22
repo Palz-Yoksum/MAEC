@@ -1,0 +1,28 @@
+{
+  "run_id": "run_parent_002",
+  "agent_id": "planner_agent",
+  "parent_run_id": null,
+  "invoked_by_agent": null,
+  "events": [
+    {
+      "step_id": 1,
+      "state": "RECEIVED",
+      "input": "Plan execution of a complex task",
+      "timestamp": "2026-01-20T06:50:50.809061"
+    },
+    {
+      "step_id": 2,
+      "state": "DECIDING",
+      "decision": "DELEGATE",
+      "timestamp": "2026-01-20T06:50:50.809061",
+      "confidence": 0.8,
+      "reason": "Task requires specialized execution"
+    },
+    {
+      "step_id": 3,
+      "state": "COMPLETED",
+      "outcome": "Delegated task to executor agent",
+      "timestamp": "2026-01-20T06:50:50.809061"
+    }
+  ]
+}

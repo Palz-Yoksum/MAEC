@@ -1,0 +1,28 @@
+{
+  "run_id": "run_001",
+  "agent_id": "demo_agent",
+  "parent_run_id": null,
+  "invoked_by_agent": null,
+  "events": [
+    {
+      "step_id": 1,
+      "state": "RECEIVED",
+      "input": "Process a sample task",
+      "timestamp": "2026-01-22T06:28:19.649107"
+    },
+    {
+      "step_id": 2,
+      "state": "DECIDING",
+      "decision": "ESCALATE",
+      "timestamp": "2026-01-22T06:28:19.649107",
+      "confidence": 0.3,
+      "reason": "Insufficient information to proceed safely"
+    },
+    {
+      "step_id": 3,
+      "state": "COMPLETED",
+      "outcome": "Task escalated to human operator",
+      "timestamp": "2026-01-22T06:28:19.649107"
+    }
+  ]
+}

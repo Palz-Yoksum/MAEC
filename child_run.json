@@ -1,0 +1,27 @@
+{
+  "run_id": "run_child_002",
+  "agent_id": "executor_agent",
+  "parent_run_id": "run_parent_002",
+  "invoked_by_agent": "planner_agent",
+  "events": [
+    {
+      "step_id": 1,
+      "state": "RECEIVED",
+      "input": "Execute delegated task",
+      "timestamp": "2026-01-20T06:50:50.809061"
+    },
+    {
+      "step_id": 2,
+      "state": "DECIDING",
+      "decision": "PROCEED",
+      "timestamp": "2026-01-20T06:50:50.809061",
+      "confidence": 0.9
+    },
+    {
+      "step_id": 3,
+      "state": "COMPLETED",
+      "outcome": "Task executed successfully",
+      "timestamp": "2026-01-20T06:50:50.809061"
+    }
+  ]
+}
